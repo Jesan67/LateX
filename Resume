@@ -1,0 +1,116 @@
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage[margin=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+\definecolor{accent}{RGB}{0,51,102}
+
+\pagestyle{empty}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+\newcommand{\resumeItem}[1]{\item[\textbullet] #1}
+
+\newenvironment{resumeItemize}{
+  \begin{itemize}[leftmargin=*, itemsep=1pt, topsep=2pt, parsep=0pt]
+}{
+  \end{itemize}
+}
+
+\newcommand{\resumeEntry}[4]{
+  \textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4} \\[2pt]
+}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent
+}
+
+\begin{document}
+
+% ----- Header -----
+\begin{center}
+  {\Huge \bfseries Mainul Hasan Jesan}\\[6pt]
+  Phone: 01830348181 \quad $\vert$ \quad
+  Email: \href{mailto:mainulhasanjesan@gmail.com}{mainulhasanjesan@gmail.com} \quad $\vert$ \quad
+  LinkedIn: \href{https://www.linkedin.com/in/mainul-hasan-jesan-0578b62b6/}{linkedin.com/in/mainul-hasan-jesan-0578b62b6} \\[2pt]
+  GitHub: \href{https://github.com/Jesan67}{github.com/Jesan67} \quad $\vert$ \quad
+  Portfolio: \href{https://drive.google.com/drive/folders/17bB0QRNKpftDsPAcnpES0HBJ-g6r5Iis?usp=drive_link}{Graphic Design Portfolio}
+\end{center}
+
+% ----- Objective -----
+\section*{Objective}
+Aspiring AI Engineer / Software Developer currently pursuing a B.Sc. in Computer Science and Engineering at BRAC University, focused on building solid fundamentals in programming, data structures, algorithms, computer design, database management, and system design. Combines this technical foundation with hands-on experience in marketing, sponsorship management, and design gained through active leadership roles in university clubs. Seeking to apply strong analytical and problem-solving skills to real-world software and AI-driven projects.
+
+% ----- Education -----
+\section*{Education}
+\resumeEntry{BRAC University}{2024 -- Present}{B.Sc. in Computer Science and Engineering (CSE)}{CGPA: 3.55 (Tentative)}
+
+\resumeEntry{Dhaka Commerce College}{2022}{Higher Secondary Certificate (HSC), Science}{GPA: 5.00 / 5.00}
+
+\resumeEntry{Mohammadpur Preparatory School and College}{2020}{Secondary School Certificate (SSC), Science}{GPA: 4.72 / 5.00}
+
+% ----- Skills -----
+\section*{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Programming \& Databases:} & Java, SQL \\
+\textbf{Marketing \& Growth:} & Digital Marketing, SEO (Basic), Sponsorship Management \\
+\textbf{Design \& Media:} & Graphic Designing, Video Editing \\
+\textbf{Languages:} & English (Fluent), Bangla (Native) \\
+\end{tabularx}
+
+% ----- Experience -----
+\section*{Experience \& Extracurricular Activities}
+
+\textbf{Digital Marketing Agency} \hfill (August25 - November25) \\
+\textit{Marketing Associate}
+\begin{resumeItemize}
+  \resumeItem{Contributed to digital marketing campaigns, applying basic SEO practices and content strategies to support client growth.}
+\end{resumeItemize}
+
+\vspace{4pt}
+\textbf{BRAC University Business Club (BIZ BEE)} \hfill \\
+\textit{Senior Executive, Marketing and Public Relations Department}
+\begin{resumeItemize}
+  \resumeItem{Serve as a mentor for a departmental group, guiding members in sponsorship management and graphic design initiatives.}
+  \resumeItem{Led and conducted onboarding meetings for newcomers, facilitating their integration into the club.}
+  \resumeItem{Managed sponsorship outreach and coordination, and volunteered across multiple club-organized events.}
+\end{resumeItemize}
+
+\vspace{4pt}
+\textbf{Robotics Club of BRAC University} \hfill  \\
+\textit{General Member, Finance \& Marketing Department}
+\begin{resumeItemize}
+  \resumeItem{Supported financial planning and marketing initiatives for club events and robotics-related programs.}
+\end{resumeItemize}
+
+\vspace{4pt}
+\textbf{Private Tutoring} \hfill  \\
+\textit{Home Tutor}
+\begin{resumeItemize}
+  \resumeItem{Tutored students of different classes for 2 years, helping them strengthen core academic concepts and improve overall performance.}
+\end{resumeItemize}
+
+\vspace{4pt}
+\textbf{Volunteering \& Extracurricular Involvement} \hfill \\
+\begin{resumeItemize}
+  \resumeItem{Volunteered in various events organized within BRAC University and external community initiatives.}
+  \resumeItem{Actively participated in a range of extracurricular activities (ECAs) across academic and social domains.}
+\end{resumeItemize}
+
+% ----- Achievements -----
+\section*{Achievements}
+\begin{resumeItemize}
+  \resumeItem{\textbf{Semi-Finalist}, Excelerate Business Competition (\textit{EXCELERATE})}
+  \resumeItem{\textbf{Bronze Award}, The Duke of Edinburgh's (DofE) International Award}
+  \resumeItem{Completed \textbf{Basics of Robotics (BoR)} Training Program}
+\end{resumeItemize}
+
+\end{document}
